@@ -24,14 +24,4 @@ public class MyController {
 		return "test.jsp";
 	}
 	
-	/*
-	@GET @Path("/test") @Produces({MediaType.APPLICATION_JSON})
-	public Result test() {
-		System.out.println("Hello Test");
-		Result result = new Result();
-		result.setResult("OK");
-		return result;
-	}
-	*/
-
 }
